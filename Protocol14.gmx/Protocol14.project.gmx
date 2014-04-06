@@ -7,11 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_placehoder_char</sprite>
+    <sprite>sprites\spr_placeholder_enemy</sprite>
     <sprite>sprites\spr_placeholder_block</sprite>
     <sprite>sprites\spr_placeholder_slope</sprite>
+    <sprite>sprites\spr_placeholder_bullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_movement.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\obj_enemy</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
